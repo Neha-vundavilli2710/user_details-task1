@@ -1,0 +1,49 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #000;
+}
+
+/* MAIN APP WRAPPER */
+#root {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 16px;
+  border: 1px solid #000;
+}
+
+/* HEADINGS */
+h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+}
+
+/* BUTTONS */
+button {
+  padding: 6px 12px;
+  margin-right: 6px;
+  border: 1px solid #000;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* USER CARD */
+#root div {
+  margin-bottom: 8px;
+}
